@@ -6,16 +6,24 @@
     <title>For My Love, Judy</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #87CEEB;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #87CEEB, #1E90FF);
             color: #ffffff;
             text-align: center;
             margin: 0;
             padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
         header {
-            background-color: #4682B4;
+            background-color: rgba(70, 130, 180, 0.8);
             padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
         h1 {
             font-size: 3em;
@@ -24,6 +32,8 @@
         p {
             font-size: 1.5em;
             margin: 20px 0;
+            line-height: 1.6;
+            max-width: 600px;
         }
         .button-container {
             margin-top: 50px;
@@ -33,13 +43,21 @@
             color: white;
             border: none;
             padding: 15px 30px;
-            font-size: 1.2em;
-            border-radius: 5px;
+            font-size: 1.5em;
+            border-radius: 30px;
             cursor: pointer;
-            transition: background-color 0.3s;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
         .surprise-button:hover {
             background-color: #FF1493;
+            transform: scale(1.1);
+        }
+        footer {
+            margin-top: 30px;
+            font-size: 1em;
+            color: #f0f8ff;
+            opacity: 0.8;
         }
     </style>
 </head>
@@ -48,16 +66,18 @@
         <h1>To My Dearest Judy</h1>
     </header>
     <main>
-        <p>Judy I love you more than words can ever express.</p>
-        <p>Every day with you is a gift, and I am so grateful to have you by my side.</p>
+        <p>Judy, you are the light of my life, my inspiration, and my greatest joy. I love you more than words can ever express.</p>
+        <p>Every day with you is a gift, and I am so grateful to have you by my side. You make my world brighter, happier, and so much more beautiful.</p>
         <div class="button-container">
             <button class="surprise-button" onclick="showSurprise()">Click for a Big Surprise!</button>
         </div>
     </main>
+    <footer>
+        Made with ❤️ just for you, Judy.
+    </footer>
     <script>
         function showSurprise() {
-            window.location.href = 'https://example.com/rose.jpg'; // Replace this URL with the actual URL of the rose image
-        }
+            window.location.href = https://example.com/rose.jpg        }
     </script>
 </body>
 </html>
